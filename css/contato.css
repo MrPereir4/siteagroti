@@ -1,0 +1,83 @@
+.single_map_unity h1 {
+  font-size: 16px;
+}
+
+.input_form {
+  width: 100%;
+  float: left;
+  padding: 0 5% 0 5%;
+}
+
+
+.left60 {
+  float: left;
+
+  max-width: 800px;
+  width: 100%;
+}
+
+.form_holder {
+  width: 100%;
+  padding: 25px;
+  border-radius: 2vw;
+  background: var(--custom_strong_blue);
+}
+
+.button_holder {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.send_button {
+  padding: 20px 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--custom_orange);
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+  float: left;
+  margin-right: 40px;
+}
+
+.button_holder ul{
+  position: relative;
+  list-style: none;
+  float: left;
+  transform: translateY(25%);
+}
+
+.send_button:hover{
+  opacity: 1;
+}
+
+.black-panel-anim{width: 100%; display: block; height: 100vh;position: fixed; z-index: 998;background: black; opacity: .8;}
+
+.popup-complete{width: 90%; height: 400px; display: block; position: fixed; z-index: 999; background: white; left: 50%; top: 50%; transform: translate(-50%, -50%); border-radius: 15px;}
+
+.popup-complete img{width: 180px; position: relative; left: 50%; transform: translate(-50%, 0);}
+
+.popup-complete h1{width: 100%; text-align: center;}
+
+.popup-complete h2{text-align: center; padding-top: 10px; font-weight: normal;}
+
+.popup-complete button{height: 40px; padding: 0 50px; font-size: 20px; outline: none; border: none; background: #396afc; color: white; position: absolute; border-radius: 5px; bottom: 15px; left: 50%; transform: translate(-50%, 0); cursor: pointer;}
+
+.popup-complete button:hover{background-color: #1c55ff;}
+
+
+
+@media screen and (min-width:830px) {
+
+  .left60 {
+    width: 60%;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px){
+  .popup-complete{width: 600px;}
+}

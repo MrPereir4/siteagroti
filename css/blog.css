@@ -1,0 +1,225 @@
+.blog_header {
+  width: 100%;
+  height: 20vh;
+  background: red;
+  margin-top: 60px;
+}
+
+.background_dark_blue {
+  background-color: var(--custom_dark_blue);
+}
+
+
+.menu_blog_holder img {
+  width: 50px;
+  transform: rotate(90deg);
+}
+
+.blog_title {
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.conform_to_img_size {
+  height: 50px;
+  line-height: 50px;
+}
+
+
+.header_title h1{
+  font-size: 25px;
+  color: white;
+  font-weight: normal;
+}
+
+.search_bar_holder{
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+
+.search_bar {
+  float: right;
+}
+
+.search_bar input {
+  height: 40px;
+  width: 200px;
+  padding: 5px 30px 5px 10px;
+  border-radius: 15px;
+  border: 2px solid rgba(45,45,45,0.2);
+}
+.search_button {
+  position: relative;
+  height: 40px;
+  width: 80px;
+  background: var(--custom_blue);
+  border-radius: 15px;
+  right: 30px;
+}
+
+.search_tracos_icon {
+  padding: 0px 0%;
+}
+
+.search_tracos_icon img{
+  width: 60px;
+}
+
+.post_img {
+  width: 50%;
+
+}
+
+.post_img img {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.post_title_and_content {
+  width: 45%;
+  height: 100%;
+}
+
+.post_title_and_content ul {
+  list-style: none;
+}
+
+.posts {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 6px;
+  max-width: 1280px;
+  margin: 0 auto 48px;
+}
+
+.read_more {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.read_more a{
+  color: var(--custom_orange);
+}
+
+.post_title {
+  font-weight: bold;
+}
+
+.post_date {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.post_content {
+  position: relative;
+  max-height: 145px;
+  overflow: hidden;
+}
+
+.post {
+  position: relative;
+  display: flex;
+  padding: 6px;
+  white-space: normal;
+  transition: transform 0.1s ease-out;
+  width: 100%;
+  border-radius: 2vh;
+  margin-bottom: 50px;
+}
+
+.pagination {
+  margin-bottom: 20px;
+}
+
+
+
+.pagination a {
+  color: black;
+  cursor: pointer;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+.pagination img {
+  padding: 2px;
+  width: 30px;
+}
+
+.right_arrow {
+  transform: rotate(-90deg);
+}
+
+.left_arrow {
+  transform: rotate(90deg);
+}
+
+@media (min-width: 850px) {
+
+  .search_tracos_icon {
+    padding: 20px 5%;
+  }
+
+  .search_bar_holder{
+    top: 100%;
+    transform: translateY(-200%);
+  }
+
+
+  .post {
+    width: 50%;
+  }
+
+
+}
+.post:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 48px -24px;
+}
+.post__content {
+  position: relative;
+  padding: 24px 24px 74px;
+  background: white;
+  white-space: normal;
+  transition: transform 0.1s ease-out;
+}
+.post__content:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-color: #d5dbdf;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
+.post__content.is-purchased:before {
+  opacity: 0.9;
+}
+
+@media screen and (min-width:830px) {
+  .header_title h1{
+    font-size: 35px;
+  }
+}
