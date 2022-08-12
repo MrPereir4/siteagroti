@@ -11,6 +11,19 @@
   --custom_gray: #565656;
 }
 
+h5 {
+  font-weight: 600;
+  font-size: 15px;
+  font-style: normal;
+  color: white;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: black;
+}
+
 .blue_text {
   color: var(--custom_blue);
 }
@@ -308,6 +321,8 @@ a {
 
 .header_with_background h1 {
   font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
   color: white;
 }
 
@@ -396,6 +411,7 @@ footer {
   font-size: 11px;
   color: white;
   text-align: center;
+  font-weight: 700;
 }
 .adr_footer h2{
   font-size: 11px;

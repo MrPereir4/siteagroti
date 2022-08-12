@@ -4,12 +4,12 @@ jQuery(document).ready(function ($) {
 
   buttonToHover.hover(
     function() {
-      $(".nav-dropdown").css("display", "block");
+      $(".nav-dropdown").stop(true).fadeIn();
       $(".nav-dropdown").hover(
         function() {
           $(".nav-dropdown").css("display", "block");
         }, function() {
-          $(".nav-dropdown").css("display", "none");
+          $(".nav-dropdown").stop(true).fadeOut();
         }
       );
     }, function() {

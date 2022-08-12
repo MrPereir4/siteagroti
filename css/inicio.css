@@ -125,7 +125,7 @@ o {
 }
 
 .orange_border {
-  border: 3px solid var(--custom_orange);
+  border: 2px solid var(--custom_orange);
   margin-right: 10px;
   margin-bottom: 10px;
   height: 122px;
