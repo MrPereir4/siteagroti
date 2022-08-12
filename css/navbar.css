@@ -139,6 +139,10 @@ nav ul li ul li a:after {
   .nav-dropdown {
     position: static;
   }
+
+  .nav-list {
+    background: var(--main_logo_color);
+  }
 }
 @media screen and (min-width: 1020px) {
   .nav-list {

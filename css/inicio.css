@@ -9,6 +9,14 @@
   margin-bottom: 10px;
 }
 
+.mobile_clientes {
+  padding: 0% 5%;
+}
+
+.mobile_img_clientes {
+    display: none;
+}
+
 
 .title_with_dif_text h1 {
   font-size: 40px;
@@ -180,6 +188,16 @@ o {
   .bottom_single_margin {
     margin-bottom: 0px;
   }
+
+
+  .mobile_clientes {
+    padding: 0% 0%;
+  }
+
+  .mobile_img_clientes {
+      display: block;
+  }
+
 
 
   .img_flex {
