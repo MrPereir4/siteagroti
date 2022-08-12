@@ -92,6 +92,7 @@ nav ul li ul li a:after {
   display: none;
   z-index: 1;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 20px 20px;
 }
 
 /* Mobile navigation */
@@ -146,10 +147,9 @@ nav ul li ul li a:after {
 }
 #nav-toggle {
   position: relative;
-  top: 50%;
+  top: 28px;
   transform: translateY(-50%);
   cursor: pointer;
-  padding: 10px 35px 16px 0px;
 }
 #nav-toggle span,
 #nav-toggle span:before,

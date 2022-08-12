@@ -4,6 +4,12 @@
   padding: 0 5%;
 }
 
+
+.bottom_single_margin {
+  margin-bottom: 10px;
+}
+
+
 .title_with_dif_text h1 {
   font-size: 40px;
   font-weight: normal;
@@ -170,6 +176,11 @@ o {
 
 
 @media screen and (min-width:830px) {
+
+  .bottom_single_margin {
+    margin-bottom: 0px;
+  }
+
 
   .img_flex {
     width: 110px;
