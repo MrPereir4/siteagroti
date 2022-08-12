@@ -12,6 +12,8 @@ jQuery(document).ready(function ($) {
       infinite: true,
       speed: 300,
       slidesToShow: 4,
+      autoplay: true,
+      autoplaySpeed: 3000,
       prevArrow: $('.next2'),
       nextArrow: $('.prev2')
       });
