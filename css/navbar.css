@@ -71,6 +71,7 @@ nav ul li a:hover::after{ width: 100%;}
 
 nav ul li ul li {
   min-width: 190px;
+  border-bottom: 0.2px solid darkBlue;
 }
 nav ul li ul li a {
   padding: 15px;
